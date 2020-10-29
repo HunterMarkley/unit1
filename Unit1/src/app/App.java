@@ -5,7 +5,7 @@ public class App {
     
         int count = 0;
         String color = "black";
-        Tuples vehicle = "240sx";
+        String vehicle = "240sx";
 
         while (count < 10) {
             System.out.println("The count is " + count);
@@ -23,7 +23,7 @@ public class App {
 
         System.out.println("color finished");
 
-        while (vehicle = "240sx"){
+        while (vehicle == "240sx"){
             System.out.println("The vehicle is " + vehicle);
             vehicle = "180sx";
         }
