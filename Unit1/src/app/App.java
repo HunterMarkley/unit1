@@ -7,7 +7,7 @@ public class App {
         Scanner input = new Scanner(System.in);
 
 
-        System.out.println("Welcome to Dog facts pick a number between 1-5.");
+        System.out.println("Welcome to Dog facts please choose a fact (1-5)");
         String name = input.nextLine();
         System.out.println("If u picked number 1 this is your fact");
         System.out.println("Dogs can read our emotions");
