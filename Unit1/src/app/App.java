@@ -1,33 +1,23 @@
 package app;
+import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
     
+        Scanner input = new Scanner(System.in);
 
-        for (int i = 10; i <= 20; i = i +1){
-            System.out.println("The count is " + i);
-            System.out.println("Let's keep counting.");
-        }
 
-        for (int i = 10; i <= 100; i = i +1){
-            System.out.println("The count is " + i);
-            System.out.println("Let's keep counting.");
-        }
-
-        for (int i = 1000; i <= 256000; i = i +1){
-            System.out.println("The count is " + i);
-            System.out.println("Let's keep counting.");
-        }
-
-        for (int i = 11; i <= 12; i = i +1){
-            System.out.println("The count is " + i);
-            System.out.println("Let's keep counting.");
-        }
-
-        for (int i = 10; i <= 0; i = i -1){
-            System.out.println("The count is " + i);
-            System.out.println("Let's keep counting.");
-        }
-
+        System.out.println("Welcome to Dog facts pick a number between 1-5.");
+        String name = input.nextLine();
+        System.out.println("If u picked number 1 this is your fact");
+        System.out.println("Dogs can read our emotions");
+        System.out.println("If u picked number 2 this is your fact");
+        System.out.println("A dogs sense of smell is 10,000 to 100,000 stronger then humans");
+        System.out.println("If u picked number 3 this is your fact");
+        System.out.println("Dogs are as smart as a 2 year old child");
+        System.out.println("If u picked number 4 this is your fact");
+        System.out.println("Dogs sweat through their paws");
+        System.out.println("If u picked number 5 this is your fact");
+        System.out.println("Dogs can see some colors");
     }
 }
